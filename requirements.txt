@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pydantic
+numpy
+pandas
+scikit-learn
+spacy
+transformers
+torch
+loguru
+pytest
+python-dotenv
