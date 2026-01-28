@@ -1,0 +1,12 @@
+2026-01-28 22:18:30,969 | INFO | ATS-AI | ATS AI initialized
+2026-01-28 22:18:30,971 | INFO | Screening-AI | Screening AI initialized
+2026-01-28 22:38:00,916 | INFO | Screening-AI | Screening AI initialized
+2026-01-28 22:39:05,396 | INFO | Screening-AI | Screening AI initialized
+2026-01-28 22:45:10,218 | INFO | Screening-AI | Screening AI initialized
+2026-01-28 22:45:10,221 | INFO | Screening-AI | Screening AI initialized
+2026-01-28 23:14:38,587 | INFO | Screening-AI | Screening AI initialized
+2026-01-28 23:14:38,592 | INFO | Screening-AI | Screening AI initialized
+2026-01-28 23:14:38,592 | INFO | Screening-AI | Screening completed | score=1.00 | passed=True
+2026-01-28 23:16:36,920 | INFO | Screening-AI | Screening AI initialized
+2026-01-28 23:16:36,925 | INFO | Screening-AI | Screening AI initialized
+2026-01-28 23:16:36,926 | INFO | Screening-AI | Screening completed | score=1.00 | passed=True
