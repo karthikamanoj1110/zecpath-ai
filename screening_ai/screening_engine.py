@@ -1,6 +1,11 @@
 from utils.logger import get_logger
 
 class ScreeningAI:
+
+    """
+    Screening AI responsible for evaluating candidates
+    against job requirements.
+    """
     def __init__(self):
         self.logger = get_logger("Screening-AI")
         self.logger.info("Screening AI initialized")
