@@ -2,7 +2,7 @@ import re
 from typing import List, Dict
 from utils.logger import get_logger
 
-logger = get_logger(__name__)
+logger = get_logger(__name__, "resume_ingestion.log")
 
 
 def clean_text(text: str) -> str:

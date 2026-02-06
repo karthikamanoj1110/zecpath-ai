@@ -10,3 +10,5 @@ torch
 loguru
 pytest
 python-dotenv
+pdfplumber
+python-docx

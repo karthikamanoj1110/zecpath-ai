@@ -1,0 +1,14 @@
+{
+  "job_id": "AI_Engineer",
+  "source": {
+    "file_name": "AI_Engineer.txt",
+    "source_type": "txt"
+  },
+  "roles": {
+    "raw_title": [],
+    "normalized_title": []
+  },
+  "skills": [],
+  "experience": null,
+  "education": []
+}

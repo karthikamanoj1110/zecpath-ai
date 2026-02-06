@@ -1,5 +1,7 @@
 from utils.logger import get_logger
 
+logger = get_logger(__name__, "screening_ai.log")
+
 class ScreeningAI:
 
     """
@@ -7,7 +9,7 @@ class ScreeningAI:
     against job requirements.
     """
     def __init__(self):
-        self.logger = get_logger("Screening-AI")
+        self.logger = get_logger("Screening-AI", "screening_ai.log")
         self.logger.info("Screening AI initialized")
 
 

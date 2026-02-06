@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from utils.logger import get_logger
 
-logger = get_logger(__name__)
+logger = get_logger(__name__, "resume_ingestion.log")
 
 
 OUTPUT_DIR = Path("output/resumes")

@@ -7,9 +7,13 @@ from resume_ingestion_engine.layout.layout_processor import process_layout
 from resume_ingestion_engine.cleaning.cleaning_engine import clean_text_blocks
 from resume_ingestion_engine.normalization.normalization_engine import normalize_text_blocks
 from resume_ingestion_engine.storage.writer import write_clean_resume
+from resume_ingestion_engine.extraction.resume_parser import parse_resume
 from utils.logger import get_logger
 
-logger = get_logger(__name__)
+logger = get_logger(
+    "resume_pipeline",
+    "resume_ingestion.log"
+)
 
 
 
@@ -61,13 +65,18 @@ def process_resume(file_path: str) -> Dict[str, Any]:
     # -------------------------------------------------------
     normalized_blocks = normalize_text_blocks(cleaned_blocks)
 
+    raw_text = "\n".join(
+    b.get("text", "") for b in normalized_blocks)
+
+    parsed_profile = parse_resume(raw_text)
     # -------------------------------------------------------
     # 5. Build structured payload
     # -------------------------------------------------------
     payload = {
         "source_file": file_path.name,
         "total_blocks": len(normalized_blocks),
-        "blocks": normalized_blocks
+        "blocks": normalized_blocks,
+        "parsed_profile": parsed_profile
     }
 
     # -------------------------------------------------------

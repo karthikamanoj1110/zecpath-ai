@@ -1,0 +1,21 @@
+1.AI Engineer
+Role Overview
+An AI Engineer designs, develops, deploys, and maintains artificial intelligence systems that solve real-world problems using machine learning, deep learning, and data-driven approaches.
+Key Responsibilities
+• Design and build AI/ML models for production use
+• Collect, preprocess, and analyze structured and unstructured data
+• Train, evaluate, and optimize machine learning models
+• Deploy AI models using APIs, microservices, or cloud platforms
+• Monitor model performance and retrain as needed
+• Collaborate with product, data, and engineering teams
+• Ensure scalability, security, and reliability of AI systems
+Required Skills & Qualifications
+• Strong knowledge of Python, ML frameworks (TensorFlow, PyTorch, Scikit-learn)
+• Experience with data processing and feature engineering
+• Understanding of ML algorithms and evaluation metrics
+• Familiarity with cloud platforms (AWS, GCP, Azure)
+• Knowledge of REST APIs and system integration
+Preferred Skills
+• Experience with MLOps tools
+• Knowledge of Docker, Kubernetes
+• Exposure to NLP, Computer Vision, or GenAI

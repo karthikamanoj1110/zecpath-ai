@@ -1,7 +1,7 @@
 import re
 from utils.logger import get_logger
 
-logger = get_logger(__name__)
+logger = get_logger(__name__, "resume_ingestion.log")
 
 
 def score_confidence(blocks, normalized_text):
