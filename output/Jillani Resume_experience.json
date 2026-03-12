@@ -1,0 +1,64 @@
+{
+  "roles": [
+    {
+      "company": "PURELOGICS",
+      "job_title": "Senior Data Scientist & Machine Learning Software Engineer (Generative AI)",
+      "start_date": "2024-12-01T00:00:00",
+      "end_date": "2026-03-12T14:28:31.990052",
+      "duration_months": 15
+    },
+    {
+      "company": "NVIDIA",
+      "job_title": "Senior Data Scientist Machine Learning & Gen AI Engineer (Volunteer)",
+      "start_date": "2024-08-01T00:00:00",
+      "end_date": "2026-03-12T14:28:31.991843",
+      "duration_months": 19
+    },
+    {
+      "company": "BLOCBELT",
+      "job_title": "Senior Data Scientist & Machine Learning Engineer",
+      "start_date": "2022-12-01T00:00:00",
+      "end_date": "2024-12-01T00:00:00",
+      "duration_months": 24
+    },
+    {
+      "company": "GOOGLE-KAGGLE",
+      "job_title": "AI Data Scientist Kaggle Master Mentor (Part-Time, 20 hours/week)",
+      "start_date": "2022-12-01T00:00:00",
+      "end_date": "2024-11-01T00:00:00",
+      "duration_months": 23
+    },
+    {
+      "company": "Crypto-Express",
+      "job_title": "Data Scientist",
+      "start_date": "2022-01-01T00:00:00",
+      "end_date": "2022-12-01T00:00:00",
+      "duration_months": 11
+    },
+    {
+      "company": "Pakistan Freelancing Training Center",
+      "job_title": "Artificial Intelligence Engineer",
+      "start_date": "2021-01-01T00:00:00",
+      "end_date": "2021-12-01T00:00:00",
+      "duration_months": 11
+    }
+  ],
+  "total_experience_months": 103,
+  "timeline_analysis": {
+    "gaps": [],
+    "overlaps": [
+      {
+        "from": "2022-12-01",
+        "to": "2024-12-01"
+      },
+      {
+        "from": "2024-08-01",
+        "to": "2024-11-01"
+      },
+      {
+        "from": "2024-12-01",
+        "to": "2026-03-12"
+      }
+    ]
+  }
+}

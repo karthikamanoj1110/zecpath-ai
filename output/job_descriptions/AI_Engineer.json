@@ -5,10 +5,105 @@
     "source_type": "txt"
   },
   "roles": {
-    "raw_title": [],
-    "normalized_title": []
+    "raw_title": [
+      "ai engineer"
+    ],
+    "normalized_title": [
+      "AI Engineer"
+    ]
   },
-  "skills": [],
+  "skills": [
+    {
+      "name": "python",
+      "normalized_name": "python",
+      "category": "programming_language",
+      "is_mandatory": true
+    },
+    {
+      "name": "tensorflow",
+      "normalized_name": "tensorflow",
+      "category": "framework",
+      "is_mandatory": true
+    },
+    {
+      "name": "pytorch",
+      "normalized_name": "pytorch",
+      "category": "framework",
+      "is_mandatory": true
+    },
+    {
+      "name": "scikit-learn",
+      "normalized_name": "scikit-learn",
+      "category": "framework",
+      "is_mandatory": true
+    },
+    {
+      "name": "machine learning",
+      "normalized_name": "machine learning",
+      "category": "ai_ml",
+      "is_mandatory": true
+    },
+    {
+      "name": "deep learning",
+      "normalized_name": "deep learning",
+      "category": "ai_ml",
+      "is_mandatory": true
+    },
+    {
+      "name": "nlp",
+      "normalized_name": "nlp",
+      "category": "ai_domain",
+      "is_mandatory": true
+    },
+    {
+      "name": "computer vision",
+      "normalized_name": "computer vision",
+      "category": "ai_domain",
+      "is_mandatory": true
+    },
+    {
+      "name": "aws",
+      "normalized_name": "aws",
+      "category": "cloud",
+      "is_mandatory": true
+    },
+    {
+      "name": "azure",
+      "normalized_name": "azure",
+      "category": "cloud",
+      "is_mandatory": true
+    },
+    {
+      "name": "gcp",
+      "normalized_name": "gcp",
+      "category": "cloud",
+      "is_mandatory": true
+    },
+    {
+      "name": "docker",
+      "normalized_name": "docker",
+      "category": "devops",
+      "is_mandatory": true
+    },
+    {
+      "name": "kubernetes",
+      "normalized_name": "kubernetes",
+      "category": "devops",
+      "is_mandatory": true
+    },
+    {
+      "name": "mlops",
+      "normalized_name": "mlops",
+      "category": "ml_platform",
+      "is_mandatory": true
+    },
+    {
+      "name": "feature engineering",
+      "normalized_name": "feature engineering",
+      "category": "data_processing",
+      "is_mandatory": true
+    }
+  ],
   "experience": null,
   "education": []
 }

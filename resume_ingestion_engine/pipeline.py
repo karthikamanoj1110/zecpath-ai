@@ -9,6 +9,17 @@ from resume_ingestion_engine.normalization.normalization_engine import normalize
 from resume_ingestion_engine.storage.writer import write_clean_resume
 from resume_ingestion_engine.extraction.resume_parser import parse_resume
 from utils.logger import get_logger
+from resume_ingestion_engine.sectioning.section_classifier import classify_resume_sections
+from resume_ingestion_engine.storage.section_writer import write_labeled_resume
+from resume_ingestion_engine.extraction.skill_extractor import extract_resume_skills
+from resume_ingestion_engine.extraction.experience_parser import extract_experience
+from resume_ingestion_engine.extraction.text_rebuilder import rebuild_text_for_nlp
+
+from resume_ingestion_engine.extraction.experience_parser import (
+    extract_experience_blocks,
+    compute_total_experience_months,
+    detect_gaps_and_overlaps
+)
 
 logger = get_logger(
     "resume_pipeline",
@@ -18,17 +29,8 @@ logger = get_logger(
 
 
 
-
 def process_resume(file_path: str) -> Dict[str, Any]:
-    """
-    End-to-end resume ingestion pipeline.
-
-    Flow:
-        Reader -> Layout -> Cleaning -> Normalization -> Storage
-
-    Returns:
-        structured cleaned resume payload (dict)
-    """
+   
 
     file_path = Path(file_path)
 
@@ -65,25 +67,40 @@ def process_resume(file_path: str) -> Dict[str, Any]:
     # -------------------------------------------------------
     normalized_blocks = normalize_text_blocks(cleaned_blocks)
 
-    raw_text = "\n".join(
-    b.get("text", "") for b in normalized_blocks)
+
+    raw_text = "\n".join(b.get("text", "") for b in normalized_blocks)
+
+    full_text = rebuild_text_for_nlp(raw_text)
+
+    experiences = extract_experience_blocks(full_text)
+
+    total_months = compute_total_experience_months(experiences)
+
+    timeline_issues = detect_gaps_and_overlaps(experiences)
 
     parsed_profile = parse_resume(raw_text)
+    labeled_blocks = classify_resume_sections(normalized_blocks)
+    # sectioned_blocks = classify_resume_sections(normalized_blocks)
     # -------------------------------------------------------
     # 5. Build structured payload
     # -------------------------------------------------------
     payload = {
         "source_file": file_path.name,
         "total_blocks": len(normalized_blocks),
-        "blocks": normalized_blocks,
+        "blocks": labeled_blocks,
+        "experience": experiences,
         "parsed_profile": parsed_profile
     }
-
+    payload["experience"] = {
+    "roles": experiences,
+    "total_experience_months": total_months,
+    "timeline_analysis": timeline_issues
+    }
     # -------------------------------------------------------
     # 6. Persist cleaned output
     # -------------------------------------------------------
     write_clean_resume(payload, source_filename=file_path.stem)
-
+    write_labeled_resume(payload, filename=file_path.stem)
     logger.info("Completed resume ingestion: %s", file_path.name)
 
     return payload
@@ -99,3 +116,4 @@ if __name__ == "__main__":
         sys.exit(1)
 
     process_resume(sys.argv[1])
+

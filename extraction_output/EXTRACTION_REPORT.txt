@@ -1,0 +1,8 @@
+
+📊 PROCESSING REPORT
+-------------------
+File: extraction_output/Jillani Resume.txt
+Original chars: 13920
+Cleaned chars : 13887
+Reduction     : 33 chars
+Time          : 2026-03-05 12:18:21

@@ -18,6 +18,26 @@ logger = get_logger(
     "job_description.log"
 )
 
+class JDPipeline:
+
+    def run(self, jd_text: str) -> dict:
+
+        role = extract_roles(jd_text)
+        skills = extract_skills(jd_text)
+        experience = extract_experience(jd_text)
+        education = extract_education(jd_text)
+
+        jd_profile = {
+            "role_name": role,
+            "required_skills": skills,
+            "experience_required": experience,
+            "education_preferences": education,
+            "normalized_text": jd_text,   # if you already normalize elsewhere, replace here
+            "raw_text": jd_text
+        }
+
+        return jd_profile
+
 def process_jd(file_path: str):
 
     logger.info("Starting job description processing: %s", file_path)   
@@ -27,11 +47,16 @@ def process_jd(file_path: str):
     if not path.exists():
         raise FileNotFoundError(path)
     raw_text = read_jd(path)
+    
+
+    print("RAW TEXT ----------------")
+    print(raw_text[:1000])
+    print("-------------------------")
 
     cleaned = clean_jd_text(raw_text)
     normalized = normalize_jd_text(cleaned)
+    roles = extract_roles(cleaned.replace("1.", ""))
     skills = extract_skills(normalized)
-    roles = extract_roles(normalized)
     experience = extract_experience(normalized)
     education = extract_education(normalized)
 

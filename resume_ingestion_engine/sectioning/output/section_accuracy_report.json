@@ -1,0 +1,11 @@
+{
+  "total_blocks": 1146,
+  "correct_blocks": 304,
+  "overall_accuracy": 0.2653,
+  "per_section_accuracy": {
+    "other": 0.3,
+    "education": 1.0,
+    "experience": 1.0,
+    "skills": 0.2523
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "resume_file": "Karthika M.pdf",
+  "skills": [
+    {
+      "raw": "python",
+      "normalized": "python",
+      "category": "technical",
+      "confidence": 0.85
+    },
+    {
+      "raw": "sql",
+      "normalized": "sql",
+      "category": "technical",
+      "confidence": 0.85
+    },
+    {
+      "raw": "ml",
+      "normalized": "machine learning",
+      "category": "technical",
+      "confidence": 0.85
+    }
+  ]
+}
