@@ -1,0 +1,142 @@
+{
+  "education": [
+    {
+      "degree": "Bachelor of Arts",
+      "degree_raw": "Bachelor in Computer Science",
+      "field": "Artificial Intelligence and Computer Science",
+      "institution": "Institute of Management Sciences",
+      "year": null,
+      "relevance_score": 3
+    }
+  ],
+  "certifications": [
+    {
+      "name": "IBM Machine Learning Specialization Professional Certificate, IBM",
+      "category": "data_science_ml",
+      "issuer": "IBM",
+      "year": null
+    },
+    {
+      "name": "Deep Learning Specialization, DeepLearning.ai",
+      "category": "data_science_ml",
+      "issuer": "DeepLearning.AI",
+      "year": null
+    },
+    {
+      "name": "Microsoft Azure AI Fundamentals AI-900 Exam Prep Specialization, Microsoft",
+      "category": "cloud",
+      "issuer": "Microsoft",
+      "year": null
+    },
+    {
+      "name": "Prompt Engineering for ChatGPT, Vanderbilt University",
+      "category": "ai_generative",
+      "issuer": "Vanderbilt University",
+      "year": null
+    },
+    {
+      "name": "Machine Learning Engineering for Production (MLOps), DeepLearning.ai",
+      "category": "data_science_ml",
+      "issuer": "DeepLearning.AI",
+      "year": null
+    },
+    {
+      "name": "AI Product Management, Duke University",
+      "category": "project_management",
+      "issuer": "Duke University",
+      "year": null
+    },
+    {
+      "name": "Generative Adversarial Networks (GANs) Specialization, DeepLearning.ai",
+      "category": "other",
+      "issuer": "DeepLearning.AI",
+      "year": null
+    },
+    {
+      "name": "IBM Generative AI Product Managers, IBM",
+      "category": "ai_generative",
+      "issuer": "IBM",
+      "year": null
+    },
+    {
+      "name": "Preparing for Google Cloud Certification: Machine Learning Engineer, Google",
+      "category": "cloud",
+      "issuer": "Google",
+      "year": null
+    },
+    {
+      "name": "IBM AI Product Manager, IBM",
+      "category": "other",
+      "issuer": "IBM",
+      "year": null
+    },
+    {
+      "name": "AWS Cloud Solutions Architect Professional Certificate, Amazon Web Services",
+      "category": "cloud",
+      "issuer": "Amazon Web Services",
+      "year": null
+    },
+    {
+      "name": "Google Project Management: Professional Certificate, Google",
+      "category": "project_management",
+      "issuer": "Google",
+      "year": null
+    },
+    {
+      "name": "Practical Data Science on the AWS Cloud Specialization, DeepLearning.ai",
+      "category": "cloud",
+      "issuer": "Amazon Web Services",
+      "year": null
+    },
+    {
+      "name": "Machine Learning Specialization, DeepLearning.AI",
+      "category": "data_science_ml",
+      "issuer": "DeepLearning.AI",
+      "year": null
+    },
+    {
+      "name": "MLOps | Machine Learning Operations Specialization, Duke University",
+      "category": "data_science_ml",
+      "issuer": "Duke University",
+      "year": null
+    },
+    {
+      "name": "Google Business Intelligence Professional Certificate, Google",
+      "category": "project_management",
+      "issuer": "Google",
+      "year": null
+    },
+    {
+      "name": "Advanced Machine Learning on Google Cloud Specialization, Google Cloud",
+      "category": "cloud",
+      "issuer": "Google",
+      "year": null
+    },
+    {
+      "name": "Large Language Model Operations (LLMOps), Duke University",
+      "category": "ai_generative",
+      "issuer": "Duke University",
+      "year": null
+    },
+    {
+      "name": "Google Advanced Data Analytics Professional Certificate, Google",
+      "category": "other",
+      "issuer": "Google",
+      "year": null
+    }
+  ],
+  "relevance": {
+    "highest_degree": "Bachelor of Arts",
+    "highest_degree_score": 2,
+    "field_relevant": true,
+    "cert_categories": [
+      "ai_generative",
+      "project_management",
+      "data_science_ml",
+      "cloud"
+    ],
+    "total_certs": 19,
+    "role_match_score": 8,
+    "summary": "Bachelor of Arts in Artificial Intelligence and Computer Science from Institute of Management Sciences | 19 certification(s) in: ai_generative, project_management, data_science_ml, cloud | Field of study relevant to tech roles | Education relevance score: 8/10"
+  }
+}

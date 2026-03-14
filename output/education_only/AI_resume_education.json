@@ -1,0 +1,53 @@
+{
+  "education": [
+    {
+      "degree": "Bachelor's Degree",
+      "degree_raw": "Bachelor",
+      "field": "'S Degree",
+      "institution": null,
+      "year": "2020",
+      "relevance_score": 3
+    },
+    {
+      "degree": "Higher Secondary Certificate",
+      "degree_raw": "HSC",
+      "field": "June 2014 - May 2016",
+      "institution": "Narayana Junior College, Kavali, AP",
+      "year": "2016",
+      "relevance_score": 1
+    },
+    {
+      "degree": "Secondary School Certificate",
+      "degree_raw": "SSC",
+      "field": "June 2004 - May 2014",
+      "institution": "Kranthi EM School, Kavali, AP",
+      "year": "2014",
+      "relevance_score": 1
+    }
+  ],
+  "certifications": [
+    {
+      "name": "IBM Professional Data Scientist Certificate",
+      "category": "other",
+      "issuer": "IBM",
+      "year": null
+    },
+    {
+      "name": "Advanced Deep Learning course in Ineuron.AI",
+      "category": "data_science_ml",
+      "issuer": "iNeuron.AI",
+      "year": null
+    }
+  ],
+  "relevance": {
+    "highest_degree": "Bachelor's Degree",
+    "highest_degree_score": 3,
+    "field_relevant": false,
+    "cert_categories": [
+      "data_science_ml"
+    ],
+    "total_certs": 2,
+    "role_match_score": 6,
+    "summary": "Bachelor's Degree in 'S Degree (2020) | 2 certification(s) in: data_science_ml | Education relevance score: 6/10"
+  }
+}
