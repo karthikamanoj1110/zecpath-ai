@@ -1,0 +1,466 @@
+{
+  "blocks": [
+    {
+      "text": "Surya Teja Menta",
+      "index": 0,
+      "section": "OTHER",
+      "is_section_header": false
+    },
+    {
+      "text": "Data Scientist / ML Engineer / AI Engineer",
+      "index": 1,
+      "section": "OTHER",
+      "is_section_header": false
+    },
+    {
+      "text": "+91 8309584461 mentasuryateja Surya-Teja-Menta surya-teja-menta suryatejamenta.co.in",
+      "index": 2,
+      "section": "OTHER",
+      "is_section_header": false
+    },
+    {
+      "text": "Address: 3-12-16, Kotha Bazar, Kavali (524201), Andhra Pradesh, India",
+      "index": 3,
+      "section": "OTHER",
+      "is_section_header": false
+    },
+    {
+      "text": "Summary",
+      "index": 4,
+      "section": "summary",
+      "is_section_header": true
+    },
+    {
+      "text": "I’m Surya Teja Menta, Results-driven Senior Data Scientist with 4+ years of experience in Data Science,",
+      "index": 5,
+      "section": "summary",
+      "is_section_header": false
+    },
+    {
+      "text": "Machine Learning (ML), and Generative AI (GenAI). Proven expertise in RAG (Retrieval-Augmented",
+      "index": 6,
+      "section": "summary",
+      "is_section_header": false
+    },
+    {
+      "text": "Generation), LLM fine-tuning, MLOps, and end-to-end AI solutions. Strong background in data analytics, statistical",
+      "index": 7,
+      "section": "summary",
+      "is_section_header": false
+    },
+    {
+      "text": "modeling, AI-powered automation, and scalable AI architectures. IBM Certified Professional Data Scientist with",
+      "index": 8,
+      "section": "summary",
+      "is_section_header": false
+    },
+    {
+      "text": "hands-on experience in LangChain, Hugging Face, OpenAI APIs, Vector Databases (ChromaDB, Pinecone), and",
+      "index": 9,
+      "section": "summary",
+      "is_section_header": false
+    },
+    {
+      "text": "cloud deployments (AWS, GCP). Passionate about AI research, model optimization, and developing cutting-edge AI",
+      "index": 10,
+      "section": "summary",
+      "is_section_header": false
+    },
+    {
+      "text": "solutions.",
+      "index": 11,
+      "section": "summary",
+      "is_section_header": false
+    },
+    {
+      "text": "Work Experience",
+      "index": 12,
+      "section": "experience",
+      "is_section_header": true
+    },
+    {
+      "text": "- Senior Data Scientist - Robert Bosch (Jan 2024 - preset)",
+      "index": 13,
+      "section": "experience",
+      "is_section_header": false
+    },
+    {
+      "text": "Designed and deployed custom YOLOv8 models for computer vision applications. Built multi-modal RAG",
+      "index": 14,
+      "section": "experience",
+      "is_section_header": false
+    },
+    {
+      "text": "pipelines for intelligent document processing, contextual retrieval, and GenAI-powered insights. Worked on",
+      "index": 15,
+      "section": "experience",
+      "is_section_header": false
+    },
+    {
+      "text": "Time series data for Adnoc Project. Developed ML algorithms for signal processing and sensor vibration data",
+      "index": 16,
+      "section": "experience",
+      "is_section_header": false
+    },
+    {
+      "text": "analytics using scikit-learn, PyTorch, and TensorFlow. Worked on LLM fine-tuning, prompt engineering, and",
+      "index": 17,
+      "section": "experience",
+      "is_section_header": false
+    },
+    {
+      "text": "efficient model inference for enterprise AI applications. Integrated MLOps best practices for scalable AI pipelines,",
+      "index": 18,
+      "section": "experience",
+      "is_section_header": false
+    },
+    {
+      "text": "model versioning, and automated deployment.",
+      "index": 19,
+      "section": "experience",
+      "is_section_header": false
+    },
+    {
+      "text": "- Subject Matter Expert (Data Analyst) - Tudip Technologies (Oct 2020 - Oct 2023)",
+      "index": 20,
+      "section": "experience",
+      "is_section_header": false
+    },
+    {
+      "text": "Developed interactive analytics dashboards and data reports in Google Data Studio for content management",
+      "index": 21,
+      "section": "experience",
+      "is_section_header": false
+    },
+    {
+      "text": "analytics. Automated text summarization & paraphrasing using NLP Transformers (BART, T5) and deployed on",
+      "index": 22,
+      "section": "experience",
+      "is_section_header": false
+    },
+    {
+      "text": "Google Cloud Run. Built AI-powered data visualization tools to enhance real-time business intelligence and trend",
+      "index": 23,
+      "section": "experience",
+      "is_section_header": false
+    },
+    {
+      "text": "analysis. Integrated LLM-powered chatbots with Google Sheets API to improve data accessibility across teams.",
+      "index": 24,
+      "section": "experience",
+      "is_section_header": false
+    },
+    {
+      "text": "Recognized with the Best Team Award for highest client appreciation and impactful AI-driven automation.",
+      "index": 25,
+      "section": "experience",
+      "is_section_header": false
+    },
+    {
+      "text": "Projects",
+      "index": 26,
+      "section": "projects",
+      "is_section_header": true
+    },
+    {
+      "text": "- Advanced RAG Research Assistant (LangChain, LLM, Hugging Face, Vector DB, AI, NLP)",
+      "index": 27,
+      "section": "projects",
+      "is_section_header": false
+    },
+    {
+      "text": "Built an AI-powered Retrieval-Augmented Generation (RAG) system for intelligent document analysis",
+      "index": 28,
+      "section": "projects",
+      "is_section_header": false
+    },
+    {
+      "text": "with multi-modal PDF processing, semantic chunking, and adaptive query handling. Integrated",
+      "index": 29,
+      "section": "projects",
+      "is_section_header": false
+    },
+    {
+      "text": "vector-based semantic search (ChromaDB), BM25 retrieval, and contextual response generation using",
+      "index": 30,
+      "section": "projects",
+      "is_section_header": false
+    },
+    {
+      "text": "Llama3.2 and Hugging Face. Developed context-tracking algorithms for personalized, stateful interactions.",
+      "index": 31,
+      "section": "projects",
+      "is_section_header": false
+    },
+    {
+      "text": "Tech stack: Python, LangChain, Chainlit, OpenAI API.",
+      "index": 32,
+      "section": "projects",
+      "is_section_header": false
+    },
+    {
+      "text": "- Github Automated Analysis (OpenAI, Langchain, LLM)",
+      "index": 33,
+      "section": "projects",
+      "is_section_header": false
+    },
+    {
+      "text": "Automated Complexity Analysis: Engineered a Python tool using GPT and LangChain to pinpoint intricate GitHub",
+      "index": 34,
+      "section": "projects",
+      "is_section_header": false
+    },
+    {
+      "text": "repositories. Memory Optimization: Implemented efficient memory management for processing extensive files while",
+      "index": 35,
+      "section": "projects",
+      "is_section_header": false
+    },
+    {
+      "text": "adhering to token limits. Enhanced Complexity Scoring: Utilized prompt engineering to elevate accuracy in",
+      "index": 36,
+      "section": "projects",
+      "is_section_header": false
+    },
+    {
+      "text": "evaluating repository complexity, refining the precision of the tool.",
+      "index": 37,
+      "section": "projects",
+      "is_section_header": false
+    },
+    {
+      "text": "- Re-Enhance.AI (Opencv, ESRGAN, Pytorch)",
+      "index": 38,
+      "section": "projects",
+      "is_section_header": false
+    },
+    {
+      "text": "The Re-Enhance.AI project is a set of tools and algorithms that can be used to improve the quality of your",
+      "index": 39,
+      "section": "projects",
+      "is_section_header": false
+    },
+    {
+      "text": "Image for Space & Research Purposes. Even though the model accepts only images with (256x256x3) dimensions,",
+      "index": 40,
+      "section": "projects",
+      "is_section_header": false
+    },
+    {
+      "text": "this framework manages the higher dimensions by Split and Send Policy.",
+      "index": 41,
+      "section": "projects",
+      "is_section_header": false
+    },
+    {
+      "text": "Professional skills",
+      "index": 42,
+      "section": "projects",
+      "is_section_header": false
+    },
+    {
+      "text": "Knowledge: Data Science, Machine Learning, Deep, NLP & CV, LLMs, Fine Tuning LLMs, Gen AI,OpenCV, YOLOv8,",
+      "index": 43,
+      "section": "projects",
+      "is_section_header": false
+    },
+    {
+      "text": "Image Processing, Object Detection, GANs, Signal Processing & Time Series Analysis",
+      "index": 44,
+      "section": "projects",
+      "is_section_header": false
+    },
+    {
+      "text": "Languages: Python, SQL, HTML, CSS, Web development,SQL, NoSQL",
+      "index": 45,
+      "section": "projects",
+      "is_section_header": false
+    },
+    {
+      "text": "Frameworks: Tensorflow, Pytorch, Keras, Langchain",
+      "index": 46,
+      "section": "projects",
+      "is_section_header": false
+    },
+    {
+      "text": "Cloud: GCP Cloud Run, Amazon Sage Maker(AWS) basic",
+      "index": 47,
+      "section": "projects",
+      "is_section_header": false
+    },
+    {
+      "text": "Libraries: Numpy, Pandas, Sklearn, Spacy, NLTK, Opencv, Matplotlib / Seaborn, scipy",
+      "index": 48,
+      "section": "projects",
+      "is_section_header": false
+    },
+    {
+      "text": "Tools: Jupyter notebooks, docker, GitHub, Git, Google DataStudio",
+      "index": 49,
+      "section": "projects",
+      "is_section_header": false
+    },
+    {
+      "text": "Others: Statistics & Probability, Calculus, Mathematics, Linear Algebra, Worked on Complex Datasets, Statistical",
+      "index": 50,
+      "section": "projects",
+      "is_section_header": false
+    },
+    {
+      "text": "Analysis, Data Mining, Model Building and Deploying, Hypothesis Testing, Data Analytics.",
+      "index": 51,
+      "section": "projects",
+      "is_section_header": false
+    },
+    {
+      "text": "Education",
+      "index": 52,
+      "section": "education",
+      "is_section_header": true
+    },
+    {
+      "text": "Bachelor's Degree(CS) - PBR VITS, Kavali, AP (June 2016 - May 2020)",
+      "index": 53,
+      "section": "education",
+      "is_section_header": false
+    },
+    {
+      "text": "I have done my Bachelor's degree in Computer Science with 78.3%. I have participated in paper",
+      "index": 54,
+      "section": "education",
+      "is_section_header": false
+    },
+    {
+      "text": "presentations and won prizes too.",
+      "index": 55,
+      "section": "education",
+      "is_section_header": false
+    },
+    {
+      "text": "HSC - Narayana Junior College, Kavali, AP (June 2014 - May 2016)",
+      "index": 56,
+      "section": "education",
+      "is_section_header": false
+    },
+    {
+      "text": "I have completed my HSC education with a 92.5%",
+      "index": 57,
+      "section": "education",
+      "is_section_header": false
+    },
+    {
+      "text": "SSC - Kranthi EM School, Kavali, AP (June 2004 - May 2014)",
+      "index": 58,
+      "section": "education",
+      "is_section_header": false
+    },
+    {
+      "text": "I have done my schooling with 87%. I also participated in school dramas, sports, etc.",
+      "index": 59,
+      "section": "education",
+      "is_section_header": false
+    },
+    {
+      "text": "Certificates & Courses",
+      "index": 60,
+      "section": "education",
+      "is_section_header": false
+    },
+    {
+      "text": "● IBM Professional Data Scientist Certificate",
+      "index": 61,
+      "section": "education",
+      "is_section_header": false
+    },
+    {
+      "text": "● Advanced Deep Learning course in Ineuron.AI",
+      "index": 62,
+      "section": "education",
+      "is_section_header": false
+    },
+    {
+      "text": "● Python & Web Development",
+      "index": 63,
+      "section": "education",
+      "is_section_header": false
+    },
+    {
+      "text": "Soft Skills",
+      "index": 64,
+      "section": "education",
+      "is_section_header": false
+    },
+    {
+      "text": "Analytical Thinking: Demonstrated through experience in data analysis, statistical techniques, and training on",
+      "index": 65,
+      "section": "education",
+      "is_section_header": false
+    },
+    {
+      "text": "complex datasets.",
+      "index": 66,
+      "section": "education",
+      "is_section_header": false
+    },
+    {
+      "text": "Problem Solving: Interpret data, Implementing algorithms, and finding solutions. used problem-solving skills to",
+      "index": 67,
+      "section": "education",
+      "is_section_header": false
+    },
+    {
+      "text": "solve challenges.",
+      "index": 68,
+      "section": "education",
+      "is_section_header": false
+    },
+    {
+      "text": "Collaboration: Highlighted by working with Google on the Google LX Project, collaborating with clients, and creating",
+      "index": 69,
+      "section": "education",
+      "is_section_header": false
+    },
+    {
+      "text": "analytics dashboards and reports to meet their requirements.",
+      "index": 70,
+      "section": "education",
+      "is_section_header": false
+    },
+    {
+      "text": "Communication: Evident through writing AI/ML blogs, presenting papers, and effectively communicating complex",
+      "index": 71,
+      "section": "education",
+      "is_section_header": false
+    },
+    {
+      "text": "concepts to both technical and non-technical stakeholders.",
+      "index": 72,
+      "section": "education",
+      "is_section_header": false
+    },
+    {
+      "text": "Continuous Learning: Exhibited by pursuing advanced courses and certifications in data science, machine learning,",
+      "index": 73,
+      "section": "education",
+      "is_section_header": false
+    },
+    {
+      "text": "and deep learning.",
+      "index": 74,
+      "section": "education",
+      "is_section_header": false
+    },
+    {
+      "text": "Adaptability: learning new technologies, and actively contributing to AI/ML communities. I'm tech savvy.",
+      "index": 75,
+      "section": "education",
+      "is_section_header": false
+    },
+    {
+      "text": "Time Management: Proven ability to handle multiple projects simultaneously while meeting deadlines",
+      "index": 76,
+      "section": "education",
+      "is_section_header": false
+    }
+  ]
+}
